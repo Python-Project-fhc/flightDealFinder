@@ -34,6 +34,14 @@ for destination in sheet_data:
         to_time=six_month_from_today
     )
 
-    if flight.price < destination["lowestPrice"]:
-        email_notif.sendMail(flight)
+    if flight is not None:
+        if flight.price < destination["lowestPrice"]:
+            email_notif.sendMail(flight)
+            if flight.stop_overs > 0:
+                print(f"we found cheaper flight to {flight.destination_city} only £{flight.price}\nFlight has "
+                      f"{flight.stop_overs} stop over, via {flight.via_city} city.")
+            else:
+                print(f"we found cheaper flight to {flight.destination_city} only £{flight.price}")
+    else:
+        continue
 

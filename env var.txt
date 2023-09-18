@@ -1,1 +1,0 @@
-SHEETY_GET_ENDPOINT=https://api.sheety.co/a93c8b421ab67233741cf2ac1ab6f89e/flightPrices/prices;SHEETY_PASS=asADSdasDad23GdfgREAsd>"F.;SHEETY_USER=fLighTPRice5;SMTP_EMAIL=testmail.fhc@gmail.com;SMTP_PASS=eavunevmuunjkcdt;TEQUILA_API_KEY=0e_LnMFohi3hJrtU2L-cRzJtNiMUAYMw
